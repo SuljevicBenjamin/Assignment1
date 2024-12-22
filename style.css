@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 10);
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -198,4 +198,36 @@ footer {
         padding: 8px;
         margin: 4px;
     }
+}
+
+/* Dark Mode  */
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background-color: #333333;
+}
+
+.dark-mode .logo {
+    color: #ffffff;
+}
+
+.dark-mode nav ul li a {
+    color: #ffffff;
+}
+
+.dark-mode .contact-button a {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.dark-mode footer {
+    background-color: #222222;
+}
+
+.dark-mode .footerBottom {
+    background-color: #121212;
 }
