@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "author": "Amina",
+        "review": "Odličan tim, sjajni doktori i ljubazno osoblje.",
+        "date": "14.01.2021."
+    },
+    {
+        "id": 2,
+        "author": "Mirza",
+        "review": "Brza i bezbolna intervencija. Preporučujem svima!",
+        "date": "03.07.2023."
+    },
+    {
+        "id": 3,
+        "author": "Jasmina",
+        "review": "Profesionalnost na najvišem nivou, sve preporuke!",
+        "date": "05.10.2024."
+    }
+]

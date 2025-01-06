@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding-top: 70px; 
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 10);
+    z-index: 10;
+}
+
+.nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #0066cc;
+}
+
+.nav button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav button:hover {
+    background-color: #004a99;
+}
+
+
+.contact-form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+form input, 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #004a99;
+}
+
+#submit {
+    background-color: #004a99;
+    color: white;
+}
+#submit:hover {
+background-color: rgba(0, 46, 250, 0.667);
+transition: 0.3s;
+cursor: pointer;
+
+}
+
+
+
+.accordion {
+    cursor: pointer;
+    background-color: rgba(0, 46, 250, 0.667);
+    color: white;
+    padding: 20px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    transition: 0.4s;
+    outline: none;
+  }
+  
+  
+  .active, .accordion:hover {
+    background-color: #0b0969;
+  }
+  
+  
+  .tekst {
+    background-color: white;
+    padding:  20px;
+    overflow: hidden;
+    display: none;
+  }
+
+
+
+
+
+  .reviews-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#reviews-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reviews-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* EDIT i DELETE */
+
+.edit-btn, .delete-btn {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #004a99;
+}
+
+
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usluge - Dentalna Klinika</title>
+    <link rel="stylesheet" href="usluge.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">Dental Klinika</div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="main.html">Početna</a></li>
+                <li><a href="usluge.html">Usluge</a></li>
+                <li><a href="onama.html">O nama</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="recenzije.html">Recenzije</a></li>
+            </ul>
+        </nav>
+        <button><a style="text-decoration: none; color: white;" href="kontakt.html">Kontaktirajte nas</a></button>
+    </div>
+
+    <div class="content">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-30">
+                        <a class="card-img-tiles" href="#" data-abc="true">
+                            <div class="inner">
+                                <div class="main-img">
+                                    <img src="https://static.vecteezy.com/system/resources/previews/016/326/827/non_2x/3d-dental-teeth-isolated-on-transparent-background-free-png.png" alt="Popravka zuba">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Popravka zuba</h4>
+                            <p class="text-muted">100KM</p>
+                            <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#successModal">Zakaži se</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-30">
+                        <a class="card-img-tiles" href="#" data-abc="true">
+                            <div class="inner">
+                                <div class="main-img">
+                                    <img src="https://img.drbicuspid.com/files/base/smg/all/image/2021/08/drb.2019_09_03_21_36_9945_dental_forceps_tooth_400.png?auto=format%2Ccompress&q=70&w=400" alt="Vađenje zuba">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Vađenje zuba</h4>
+                            <p class="text-muted">50KM</p>
+                            <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#successModal">Zakaži se</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card mb-30">
+                        <a class="card-img-tiles" href="#" data-abc="true">
+                            <div class="inner">
+                                <div class="main-img">
+                                    <img src="https://media.istockphoto.com/id/482768467/photo/healthy-teeth-closeup.jpg?s=612x612&w=0&k=20&c=V-HtFLDo_gjOKAGKStCylB7RyzoBY0blitIuqddw2bw=" alt="Pregled Zuba">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Pregled zuba</h4>
+                            <p class="text-muted">60KM</p>
+                            <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#successModal">Zakaži se</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Uspješno ste se zakazali!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Hvala na zakazivanju. Naša recepcija će vas uskoro kontaktirati.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Zatvori</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabela-container">
+        <h2 class="text-center">Cjenovnik usluga</h2>
+        <table border="1" style="width: 100%; text-align: left;">
+            <tr>
+                <td>Usluga</td>
+                <td>Cijena za odrasle (KM)</td>
+                <td>Cijena za djecu (KM)</td>
+            </tr>
+            <tr>
+                <td>Vađenje zuba</td>
+                <td>50</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Popravak zuba</td>
+                <td>100</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Pregled zuba</td>
+                <td>60</td>
+                <td>50</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
