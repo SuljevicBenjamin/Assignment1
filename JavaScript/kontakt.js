@@ -1,3 +1,4 @@
+function kontakt_js() {
 document.getElementById('contact-form').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -45,3 +46,5 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         formStatus.style.color = 'red';
     });
 });
+}
+
