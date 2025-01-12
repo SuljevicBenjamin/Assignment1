@@ -231,3 +231,15 @@ footer {
 .dark-mode .footerBottom {
     background-color: #121212;
 }
+
+
+
+.nav_links a.active {
+    color: rgb(255, 255, 255);  
+    font-weight: bold; 
+}
+
+
+.nav_links a:hover {
+    color: rgb(133, 133, 133);
+}
